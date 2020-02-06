@@ -1,6 +1,10 @@
 package com.example.lab4_shapes;
 
 public abstract class Shape {
-    public abstract int x();
-    public abstract int y();
+    public int x;
+    public int y;
+    Shape(int x, int y){
+        this.x = x;
+        this.y = y;
+    }
 }
